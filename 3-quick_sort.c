@@ -53,7 +53,7 @@ void quick_sort_recursive(int arr[], int low, int high, size_t n)
 				}
 			}
 		}
-		if (i + 1 != high)
+		if (i + 1 != high && arr[i + 1] != arr[high])
 		{
 			swap(&arr[i + 1], &arr[high]);
 			print_array(arr, n);
@@ -76,7 +76,7 @@ void quick_sort_recursive(int arr[], int low, int high, size_t n)
 
 void quick_sort(int *array, size_t size)
 {
-	if (array == NULL || size == 0 || *array == NULL)
+	if (array == NULL || size == 0)
 		return;
 	quick_sort_recursive(array, 0, size - 1, size);
 }
