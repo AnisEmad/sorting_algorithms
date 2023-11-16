@@ -24,7 +24,7 @@
 | ---- | ---- |
 | 0. Bubble sort | [0-bubble_sort.c](./0-bubble_sort.c) |
 | 1. Insertion sort | [SOON](./) |
-| 2. Selection sort | [SOON](./) |
+| 2. Selection sort | [2-selection_sort.c](./2-selection_sort.c) |
 | 3. Quick sort | [SOON](./) |
 | 4. Shell sort - Knuth Sequence | [SOON](./) |
 | 5. Cocktail shaker sort | [SOON](./) |
